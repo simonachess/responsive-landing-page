@@ -1,0 +1,21 @@
+footer {
+    background: #000;
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+}
+
+footer div {
+    width: 100%;
+}
+
+footer a {
+    color: #2690d4;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px){
+    footer{
+        flex-direction: column;
+    }
+}

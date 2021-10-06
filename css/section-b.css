@@ -1,0 +1,37 @@
+#section-b {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2em 60px;
+}
+
+#section-b .card {
+    width: 30%;
+    max-width: 320px;
+    margin: 0 10px;
+    background: white;
+    color: #333;
+}
+
+#section-b .card img {
+    width: 100%;
+}
+
+#section-b .card .card-content {
+    padding: 1.5em;
+}
+
+#section-b .card p {
+    padding: 1em 0;
+}
+
+@media screen and (max-width: 768px) {
+    #section-b {
+        flex-direction: column;
+    }
+    #section-b .card {
+        width: 100%;
+        max-width: none;
+        margin-bottom: 20px;
+    }
+}

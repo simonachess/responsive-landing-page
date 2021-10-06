@@ -1,0 +1,24 @@
+#section-d {
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+}
+
+#section-d p {
+    padding: 1em 0;
+}
+
+#section-d div {
+    width: 100%;
+    padding: 2em;
+}
+
+#section-d div:first-child {
+    background: #2690d4;
+}
+
+@media screen and (max-width: 768px) {
+    #section-d {
+        flex-direction: column;
+    }
+}
